@@ -1,6 +1,6 @@
 variables:
   buildConfiguration: 'Release'
-  myfreetrial : 'Free Trial'
+  myfreetrial : 'project1sp'
   webappname : 'onlinecaluculatorapp'
 
 steps:
