@@ -9,9 +9,9 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: true
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: '$(spname)'
-    appType: 'webAppLinux'
-    appName: 'testwebappfordevops'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+# - task: AzureWebApp@1
+#   inputs:
+#     azureSubscription: '$(spname)'
+#     appType: 'webAppLinux'
+#     appName: 'testwebappfordevops'
+#     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
